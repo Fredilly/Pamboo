@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import LocalizedHome from "./[locale]/page";
 
 export default function Home() {
-  redirect("/zh");
+  return <LocalizedHome params={{ locale: "zh" }} />;
 }
