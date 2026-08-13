@@ -247,14 +247,18 @@ export default function LocalizedHome({ params }: { params: { locale: string } }
         <div className="container">
           <div className="cta-panel">
             <div className="cta-copy"><div className="kicker light">{t.ctaKicker}</div><h2>{t.ctaTitle}</h2><p>{t.ctaBody}</p></div>
-            <a className="cta-button" href="mailto:hello@example.com">{t.ctaButton}<span>↗</span></a>
+            <a className="cta-button" href="mailto:stephen@orientalsourcepress.co.uk">{t.ctaButton}<span>↗</span></a>
           </div>
         </div>
       </section>
 
       <footer className="footer">
         <div className="container footer-row">
-          <div><strong>PAMBOO / TEEBOT</strong><span>{t.footer}</span></div>
+          <div>
+            <strong>PAMBOO / TEEBOT</strong>
+            <span>{t.footer}</span>
+            <span>stephen@orientalsourcepress.co.uk · +86 18780161026 · WeChat: Stephen_OSP · QQ: 421446282 · Chengdu, China</span>
+          </div>
           <span>© 2026</span>
         </div>
       </footer>
